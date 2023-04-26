@@ -16,7 +16,13 @@ h1 {
     padding: 10px;
 }
 
-h2 {
+#rodape{
+    color: #3d3d3d;
+    background-color: #E1EDF2;
+    padding: 8px;
+    font-size: 30px
+}
+#diferenciais {
     border-bottom: 2px solid #000;
 }
 
