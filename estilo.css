@@ -54,3 +54,17 @@ figure img {
     width: 275px;
     float: right;
 }
+
+.divFlexBox{
+    display: flex;
+    text-align: left;
+}
+dl{
+    flex-direction: column;
+    width: 40%;
+    padding: auto;
+}
+
+dt h3, dt p {
+    display: inline;
+}
