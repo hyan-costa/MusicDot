@@ -59,12 +59,11 @@ figure img {
     display: flex;
     text-align: left;
 }
-dl{
+.dadosContato{
     flex-direction: column;
-    width: 40%;
-    padding: auto;
+    margin: 1%;
 }
 
-dt h3, dt p {
+#tel h3, #tel p {
     display: inline;
 }
