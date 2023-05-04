@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>MusicDot</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+        <img src="img/logo.svg" alt="Logotipo da MusicDot">
+        <h1>Entre Em Contato</h1>
+    </div>
+    <form id="contato" action="javascript:return 0;" method="POST">
+        <div>
+            <input name="nome" type="text" placeholder="..." required>
+            <label for="nome">Nome</label>
+        </div>
+        <div>
+            <input name="fone" type="tel" placeholder="(xx)xx-xx-xx-xx" required>
+            <label for="fone">Fone</label>
+            
+        </div>
+        <div>
+            <input name="email" type="email" placeholder="fulano@email.com" required>
+            <label for="email">Email</label>
+            
+        </div>
+        <div>
+            <textarea name="email" id="opiniao" cols="31" rows="10" placeholder="Deixe sua opinião" required></textarea>
+        </div>
+        <div>
+            <button type="submit" form="contato">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
