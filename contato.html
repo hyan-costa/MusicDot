@@ -2,36 +2,63 @@
 <html lang="pt-BR">
 
 <head>
-    <title>MusicDot</title>
+    <title>MusicDot | Sobre a empresa</title>
+    <link rel="icon" href="img/favicon.ico">
     <meta charset="utf-8">
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-    <div>
+    <a href="index.html">
         <img src="img/logo.svg" alt="Logotipo da MusicDot">
-        <h1>Entre Em Contato</h1>
-    </div>
-    <form id="contato" action="javascript:return 0;" method="POST">
+    </a>
+    <h1 class="titulo">Entre em contato</h1>
+    <form name="form-contato">
         <div>
-            <input name="nome" type="text" placeholder="..." required>
+            <input type="text" 
+                id="nome"
+                placeholder="..." 
+                required="required" 
+                name="nome" 
+                class="campo-formulario" 
+            />
             <label for="nome">Nome</label>
         </div>
         <div>
-            <input name="fone" type="tel" placeholder="(xx)xx-xx-xx-xx" required>
-            <label for="fone">Fone</label>
-            
+            <input type="tel" 
+                id="telefone"
+                placeholder="(xx)xx-xx-xx-xx" 
+                required="required" 
+                name="telefone" 
+                class="campo-formulario" 
+            />
+            <label for="telefone">Fone</label>
         </div>
         <div>
-            <input name="email" type="email" placeholder="fulano@email.com" required>
+            <input type="email" 
+                id="email"
+                placeholder="fulano@mail.com" 
+                required="required" 
+                class="campo-formulario" 
+                name="email" 
+            />
             <label for="email">Email</label>
-            
         </div>
         <div>
-            <textarea name="opiniao" id="opiniao" placeholder="Deixe sua opinião" required></textarea>
+            <textarea 
+                placeholder="Deixe sua opinião"
+                required="required" 
+                class="campo-formulario"
+                style="height: 200px;"
+            ></textarea>
         </div>
         <div>
-            <button type="submit" form="contato">Enviar</button>
+            <input type="submit" 
+                class="botao-enviar" 
+                value="Enviar" 
+            />
         </div>
-    </form>
+      </form>
 </body>
+
 </html>
