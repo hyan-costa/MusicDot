@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Montserrat';
+	color: #2e4255;
 }
 ol, ul {
 	list-style: none;
@@ -47,12 +49,8 @@ table {
 	border-spacing: 0;
 }
 
-body {
- font-family: 'Montserrat', sans-serif;
- color: #2e4255;
-}
 
 a {
- color: inherit;
+ color: rgb(255, 255, 255);
  text-decoration: inherit;
 }
